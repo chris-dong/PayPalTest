@@ -14,6 +14,11 @@
 		68DDB4F81B2242F80027ABB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DDB4F71B2242F80027ABB0 /* Images.xcassets */; };
 		68DDB4FB1B2242F80027ABB0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DDB4F91B2242F80027ABB0 /* LaunchScreen.xib */; };
 		68DDB5071B2242F80027ABB0 /* PPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68DDB5061B2242F80027ABB0 /* PPTests.m */; };
+		68DDB51C1B2243200027ABB0 /* libPayPalMPL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DDB5111B2243200027ABB0 /* libPayPalMPL.a */; };
+		68DDB51E1B2243620027ABB0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DDB51D1B2243620027ABB0 /* libxml2.dylib */; };
+		68DDB5201B2243790027ABB0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DDB51F1B2243790027ABB0 /* libz.dylib */; };
+		68DDB5411B2615E30027ABB0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68DDB5401B2615E30027ABB0 /* Info.plist */; };
+		68DDB5441B2615F70027ABB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68DDB5421B2615F70027ABB0 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,6 @@
 
 /* Begin PBXFileReference section */
 		68DDB4E71B2242F80027ABB0 /* PP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		68DDB4EB1B2242F80027ABB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68DDB4EC1B2242F80027ABB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68DDB4EE1B2242F80027ABB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68DDB4EF1B2242F80027ABB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +44,22 @@
 		68DDB5001B2242F80027ABB0 /* PPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DDB5051B2242F80027ABB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68DDB5061B2242F80027ABB0 /* PPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPTests.m; sourceTree = "<group>"; };
+		68DDB5111B2243200027ABB0 /* libPayPalMPL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayPalMPL.a; sourceTree = "<group>"; };
+		68DDB5121B2243200027ABB0 /* PayPal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPal.h; sourceTree = "<group>"; };
+		68DDB5131B2243200027ABB0 /* PayPalAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAddress.h; sourceTree = "<group>"; };
+		68DDB5141B2243200027ABB0 /* PayPalAdvancedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAdvancedPayment.h; sourceTree = "<group>"; };
+		68DDB5151B2243200027ABB0 /* PayPalAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalAmounts.h; sourceTree = "<group>"; };
+		68DDB5161B2243200027ABB0 /* PayPalInvoiceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceData.h; sourceTree = "<group>"; };
+		68DDB5171B2243200027ABB0 /* PayPalInvoiceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalInvoiceItem.h; sourceTree = "<group>"; };
+		68DDB5181B2243200027ABB0 /* PayPalPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPayment.h; sourceTree = "<group>"; };
+		68DDB5191B2243200027ABB0 /* PayPalPreapprovalDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalPreapprovalDetails.h; sourceTree = "<group>"; };
+		68DDB51A1B2243200027ABB0 /* PayPalReceiverAmounts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverAmounts.h; sourceTree = "<group>"; };
+		68DDB51B1B2243200027ABB0 /* PayPalReceiverPaymentDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalReceiverPaymentDetails.h; sourceTree = "<group>"; };
+		68DDB51D1B2243620027ABB0 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		68DDB51F1B2243790027ABB0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		68DDB5401B2615E30027ABB0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DDB5431B2615F70027ABB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68DDB5451B2616050027ABB0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68DDB5201B2243790027ABB0 /* libz.dylib in Frameworks */,
+				68DDB51E1B2243620027ABB0 /* libxml2.dylib in Frameworks */,
+				68DDB51C1B2243200027ABB0 /* libPayPalMPL.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,8 @@
 		68DDB4DE1B2242F80027ABB0 = {
 			isa = PBXGroup;
 			children = (
+				68DDB51F1B2243790027ABB0 /* libz.dylib */,
+				68DDB51D1B2243620027ABB0 /* libxml2.dylib */,
 				68DDB4E91B2242F80027ABB0 /* PP */,
 				68DDB5031B2242F80027ABB0 /* PPTests */,
 				68DDB4E81B2242F80027ABB0 /* Products */,
@@ -88,6 +113,7 @@
 				68DDB4F41B2242F80027ABB0 /* Main.storyboard */,
 				68DDB4F71B2242F80027ABB0 /* Images.xcassets */,
 				68DDB4F91B2242F80027ABB0 /* LaunchScreen.xib */,
+				68DDB5101B2243200027ABB0 /* Library */,
 				68DDB4EA1B2242F80027ABB0 /* Supporting Files */,
 			);
 			path = PP;
@@ -96,7 +122,8 @@
 		68DDB4EA1B2242F80027ABB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				68DDB4EB1B2242F80027ABB0 /* Info.plist */,
+				68DDB5421B2615F70027ABB0 /* InfoPlist.strings */,
+				68DDB5401B2615E30027ABB0 /* Info.plist */,
 				68DDB4EC1B2242F80027ABB0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -117,6 +144,24 @@
 				68DDB5051B2242F80027ABB0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68DDB5101B2243200027ABB0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				68DDB5111B2243200027ABB0 /* libPayPalMPL.a */,
+				68DDB5121B2243200027ABB0 /* PayPal.h */,
+				68DDB5131B2243200027ABB0 /* PayPalAddress.h */,
+				68DDB5141B2243200027ABB0 /* PayPalAdvancedPayment.h */,
+				68DDB5151B2243200027ABB0 /* PayPalAmounts.h */,
+				68DDB5161B2243200027ABB0 /* PayPalInvoiceData.h */,
+				68DDB5171B2243200027ABB0 /* PayPalInvoiceItem.h */,
+				68DDB5181B2243200027ABB0 /* PayPalPayment.h */,
+				68DDB5191B2243200027ABB0 /* PayPalPreapprovalDetails.h */,
+				68DDB51A1B2243200027ABB0 /* PayPalReceiverAmounts.h */,
+				68DDB51B1B2243200027ABB0 /* PayPalReceiverPaymentDetails.h */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +227,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = 68DDB4DE1B2242F80027ABB0;
 			productRefGroup = 68DDB4E81B2242F80027ABB0 /* Products */;
@@ -199,9 +245,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68DDB5411B2615E30027ABB0 /* Info.plist in Resources */,
 				68DDB4F61B2242F80027ABB0 /* Main.storyboard in Resources */,
 				68DDB4FB1B2242F80027ABB0 /* LaunchScreen.xib in Resources */,
 				68DDB4F81B2242F80027ABB0 /* Images.xcassets in Resources */,
+				68DDB5441B2615F70027ABB0 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +306,15 @@
 				68DDB4FA1B2242F80027ABB0 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		68DDB5421B2615F70027ABB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68DDB5431B2615F70027ABB0 /* en */,
+				68DDB5451B2616050027ABB0 /* fr */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -349,6 +406,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PP/Library",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +420,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PP/Library",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -416,6 +481,7 @@
 				68DDB50C1B2242F80027ABB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68DDB50D1B2242F80027ABB0 /* Build configuration list for PBXNativeTarget "PPTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +490,7 @@
 				68DDB50F1B2242F80027ABB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
